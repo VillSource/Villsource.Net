@@ -1,8 +1,11 @@
 using System.Reflection;
+using Villsource.Mediator.Abstractions;
+using ICommand = System.Windows.Input.ICommand;
 
-namespace Villsource.Mediator.MicrosoftExtensionsDependencyInjection;
+// ReSharper disable CheckNamespace
+namespace Microsoft.Extensions.DependencyInjection;
 
 public class MediatorConfiguration
 {
-    public IEnumerable<Assembly> AssembliesToScan { get; set; } = [];
+    public IEnumerable<Assembly> AssembliesToScan { get; set; } = [Assembly.GetExecutingAssembly()];
 }

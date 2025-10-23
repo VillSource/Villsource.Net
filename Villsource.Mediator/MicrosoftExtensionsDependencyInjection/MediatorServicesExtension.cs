@@ -1,19 +1,18 @@
 using System.Reflection;
-using Microsoft.Extensions.DependencyInjection;
 
-namespace Villsource.Mediator.MicrosoftExtensionsDependencyInjection;
+// ReSharper disable CheckNamespace
+namespace Microsoft.Extensions.DependencyInjection;
 
 public static class MediatorServicesExtension
 {
-    public static IServiceCollection AddMediator(this IServiceCollection services, Action<MediatorConfiguration> config)
+    public static IServiceCollection AddVillsourceMediator(this IServiceCollection services, Action<MediatorConfiguration> config)
     {
         var configuration = new MediatorConfiguration();
         config(configuration);
-        return services.AddMediator(configuration);
+        return services.AddVillsourceMediator(configuration);
     }
-    public static IServiceCollection AddMediator(this IServiceCollection services, MediatorConfiguration config)
+    public static IServiceCollection AddVillsourceMediator(this IServiceCollection services, MediatorConfiguration config)
     {
-        
         return services;
     }
     

@@ -10,7 +10,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villsource.Mediator", "Vill
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villsource.Mediator.Abstractions", "Villsource.Mediator.Abstractions\Villsource.Mediator.Abstractions.csproj", "{FF302B66-A90F-49EB-BDEC-BD94D83077C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villsource.Mediator.Example", "Villsource.Mediator.Example\Villsource.Mediator.Example.csproj", "{01FC01D6-CE33-49B1-9957-40507B755318}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villsource.Mediator.Example", "Villsource.Mediator.Example\Villsource.Mediator.Example.csproj", "{6A95C853-9C48-432B-B04A-38AC43583591}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,9 +38,9 @@ Global
 		{FF302B66-A90F-49EB-BDEC-BD94D83077C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF302B66-A90F-49EB-BDEC-BD94D83077C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF302B66-A90F-49EB-BDEC-BD94D83077C8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{01FC01D6-CE33-49B1-9957-40507B755318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01FC01D6-CE33-49B1-9957-40507B755318}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01FC01D6-CE33-49B1-9957-40507B755318}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01FC01D6-CE33-49B1-9957-40507B755318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A95C853-9C48-432B-B04A-38AC43583591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A95C853-9C48-432B-B04A-38AC43583591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A95C853-9C48-432B-B04A-38AC43583591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A95C853-9C48-432B-B04A-38AC43583591}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
