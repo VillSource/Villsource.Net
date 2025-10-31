@@ -62,4 +62,6 @@ public class ErrorList : IError, IList<IError>
         get => _errors[index];
         set => _errors[index] = value;
     }
+
+    public override string ToString() =>  $"[{string.Join(", ", _errors)}]";
 }

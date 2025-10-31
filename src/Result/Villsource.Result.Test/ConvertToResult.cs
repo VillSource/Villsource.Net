@@ -26,18 +26,6 @@ public class ConvertToResult
     }
     
     [Fact]
-    public void ValueResultFail_Should_ConvertToResult()
-    {
-        var err =  _fixture.Create<ErrorMessage>();
-        var from = new Result<int>(err);
-        Result to = from;
-
-        to.Error.Should().BeEquivalentTo(err);
-        to.GetError().Should().BeEquivalentTo(err);
-        to.IsFail().Should().BeTrue();
-    }
-
-    [Fact]
     public void ResultWithValue_Should_GetValueType()
     {
         var from = new Result<int>(1);

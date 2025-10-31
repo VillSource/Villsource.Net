@@ -2,7 +2,6 @@
 
 public interface IResult
 {
-    IError? Error { get; }
     bool IsOk();
     bool IsFail();
     bool HasValue();
@@ -13,5 +12,5 @@ public interface IResult
 
 public interface IResult<out TValue> : IResult
 {
-    TValue Value { get; }
+    TValue? GetValue();
 }
