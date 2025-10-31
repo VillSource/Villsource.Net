@@ -1,6 +1,6 @@
 using System.Collections;
 
-namespace Villsource.Result;
+namespace Villsource.Result.Errors;
 
 public class ErrorList : IError, IList<IError>
 {

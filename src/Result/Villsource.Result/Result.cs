@@ -1,3 +1,5 @@
+using Villsource.Result.Errors;
+
 namespace Villsource.Result;
 
 public partial class Result : IResult

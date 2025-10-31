@@ -1,4 +1,4 @@
-namespace Villsource.Result;
+namespace Villsource.Result.Errors;
 
 public static class ErrorReasonConstants
 {
