@@ -1,16 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villsource.Result", "Villsource.Result\Villsource.Result.csproj", "{DF7BA46F-863E-400F-90B8-E282B43BCC4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villsource.Result", "src\Result\Villsource.Result\Villsource.Result.csproj", "{DF7BA46F-863E-400F-90B8-E282B43BCC4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villsource.Result.Test", "Villsource.Result.Test\Villsource.Result.Test.csproj", "{F474F5E3-9A22-4059-A512-A3BEF885A01B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villsource.Result.Test", "src\Result\Villsource.Result.Test\Villsource.Result.Test.csproj", "{F474F5E3-9A22-4059-A512-A3BEF885A01B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villsource.Result.Example", "Villsource.Result.Example\Villsource.Result.Example.csproj", "{F1D47F0C-BD60-4AE9-864E-F6000E13AE53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villsource.Result.Example", "src\Result\Villsource.Result.Example\Villsource.Result.Example.csproj", "{F1D47F0C-BD60-4AE9-864E-F6000E13AE53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villsource.Mediator", "Villsource.Mediator\Villsource.Mediator.csproj", "{B16C6E34-7A37-4679-A1AF-E3980615AE2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villsource.Mediator", "src\Mediator\Villsource.Mediator\Villsource.Mediator.csproj", "{B16C6E34-7A37-4679-A1AF-E3980615AE2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villsource.Mediator.Abstractions", "Villsource.Mediator.Abstractions\Villsource.Mediator.Abstractions.csproj", "{FF302B66-A90F-49EB-BDEC-BD94D83077C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villsource.Mediator.Abstractions", "src\Mediator\Villsource.Mediator.Abstractions\Villsource.Mediator.Abstractions.csproj", "{FF302B66-A90F-49EB-BDEC-BD94D83077C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villsource.Mediator.Example", "Villsource.Mediator.Example\Villsource.Mediator.Example.csproj", "{6A95C853-9C48-432B-B04A-38AC43583591}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villsource.Mediator.Example", "src\Mediator\Villsource.Mediator.Example\Villsource.Mediator.Example.csproj", "{6A95C853-9C48-432B-B04A-38AC43583591}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Result", "Result", "{AFDA9337-ED15-474E-BBA5-9674CDF8CAB3}"
 EndProject
