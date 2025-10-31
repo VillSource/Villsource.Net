@@ -1,4 +1,3 @@
-using AutoFixture;
 using AutoFixture.AutoMoq;
 
 namespace Villsource.Result.Test;

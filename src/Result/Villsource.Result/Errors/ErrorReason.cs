@@ -6,5 +6,4 @@ public class ErrorReason(string message): IError
     public override string ToString() => Message;
     
     public static implicit operator ErrorReason(string message) => new(message);
-    public static implicit operator string(ErrorReason err) => err.ToString();
 }
