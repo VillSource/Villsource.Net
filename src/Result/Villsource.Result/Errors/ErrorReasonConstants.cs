@@ -1,8 +1,8 @@
-namespace Villsource.Result;
+namespace Villsource.Result.Errors;
 
 public static class ErrorReasonConstants
 {
     public static readonly ErrorReason INVALID = "Invalid";
-    public static readonly ErrorReason NOTFOUND = "Not Found";
+    public static readonly ErrorReason NOTFOUND = "Not found";
     public static readonly ErrorReason PRIVILEGE = "Privilege not found";
 }

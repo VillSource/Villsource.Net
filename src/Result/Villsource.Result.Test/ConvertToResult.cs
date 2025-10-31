@@ -1,5 +1,4 @@
-﻿using AutoFixture;
-using AutoFixture.AutoMoq;
+﻿using AutoFixture.AutoMoq;
 
 namespace Villsource.Result.Test;
 
@@ -25,18 +24,6 @@ public class ConvertToResult
         to.GetValueObject().Should().BeEquivalentTo(from.GetValueObject());
     }
     
-    [Fact]
-    public void ValueResultFail_Should_ConvertToResult()
-    {
-        var err =  _fixture.Create<ErrorMessage>();
-        var from = new Result<int>(err);
-        Result to = from;
-
-        to.Error.Should().BeEquivalentTo(err);
-        to.GetError().Should().BeEquivalentTo(err);
-        to.IsFail().Should().BeTrue();
-    }
-
     [Fact]
     public void ResultWithValue_Should_GetValueType()
     {

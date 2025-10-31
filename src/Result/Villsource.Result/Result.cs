@@ -1,3 +1,5 @@
+using Villsource.Result.Errors;
+
 namespace Villsource.Result;
 
 public partial class Result : IResult
@@ -62,6 +64,7 @@ public class Result<TValue> : IResult<TValue>
     public object? GetValueObject() => Value;
     public Type? GetValueType() => HasValue() ? Value!.GetType() : null;
     public IError? GetError() => Error;
+    public TValue? GetValue() => Value;
 
     public static implicit operator Result<TValue>(TValue value) => new(value);
 
@@ -89,6 +92,7 @@ public partial class Result
     public static Result<T> Ok<T>(T value) => new Result<T>(value);
     
     public static Result Fail() => new(error: null);
+    public static Result Fail(IError error) => new(error);
     public static Result Fail(params IError[] errors)
     {
         ErrorList errorList = [..errors];
