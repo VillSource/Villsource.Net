@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\Result\Villsource.Result\Villsource.Result.csproj" />
+    </ItemGroup>
+
 </Project>
